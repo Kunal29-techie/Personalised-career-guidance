@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Details - CareerQuest</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="careers.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="nav-logo">⚡</span>
+                <span class="nav-title">CareerQuest</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="chat.html" class="nav-link">AI Advisor</a></li>
+                <li><a href="roadmaps.html" class="nav-link">Roadmaps</a></li>
+                <li><a href="careers.html" class="nav-link active">Careers</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Career Hero Section -->
+    <section class="career-hero" id="careerHero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="career-icon" id="careerIcon">🎨</div>
+                <h1 id="careerTitle">Frontend Development</h1>
+                <p id="careerDescription">Master modern web development with React, TypeScript, and responsive design</p>
+                <div class="hero-badges">
+                    <span class="badge badge-difficulty" id="difficultyBadge">Beginner Friendly</span>
+                    <span class="badge badge-duration" id="durationBadge">8 months</span>
+                    <span class="badge badge-salary" id="salaryBadge">$70K - $120K</span>
+                </div>
+                <div class="hero-actions">
+                    <button class="btn btn-primary" id="startRoadmapBtn">Start Learning Path</button>
+                    <button class="btn btn-outline" id="talkToAdvisorBtn">Talk to AI Advisor</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Overview -->
+    <section class="career-overview">
+        <div class="container">
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <div class="card-icon">💰</div>
+                    <h3>Salary Range</h3>
+                    <div class="salary-info" id="salaryInfo">
+                        <div class="salary-level">
+                            <span class="level">Entry Level</span>
+                            <span class="amount">$70K - $90K</span>
+                        </div>
+                        <div class="salary-level">
+                            <span class="level">Mid Level</span>
+                            <span class="amount">$90K - $130K</span>
+                        </div>
+                        <div class="salary-level">
+                            <span class="level">Senior Level</span>
+                            <span class="amount">$130K - $180K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">📈</div>
+                    <h3>Job Market</h3>
+                    <div class="market-stats" id="marketStats">
+                        <div class="stat">
+                            <span class="stat-label">Job Growth</span>
+                            <span class="stat-value positive">+22%</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Open Positions</span>
+                            <span class="stat-value">50K+</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Remote Friendly</span>
+                            <span class="stat-value">85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Key Skills</h3>
+                    <div class="skills-list" id="skillsList">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Roadmap -->
+    <section class="learning-roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2>Your Learning Journey</h2>
+                <p>Follow this structured path to master your chosen career</p>
+            </div>
+            <div class="roadmap-timeline" id="roadmapTimeline">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+            <div class="roadmap-actions">
+                <button class="btn btn-primary" id="startJourneyBtn">Begin Your Journey</button>
+                <button class="btn btn-outline" id="customizeRoadmapBtn">Customize Roadmap</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companies Section -->
+    <section class="companies-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Where You Could Work</h2>
+                <p>Top companies hiring for this role</p>
+            </div>
+            <div class="companies-grid" id="companiesGrid">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="success-stories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Success Stories</h2>
+                <p>Learn from others who've walked this path</p>
+            </div>
+            <div class="stories-grid" id="storiesGrid">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Careers -->
+    <section class="related-careers">
+        <div class="container">
+            <div class="section-header">
+                <h2>Related Career Paths</h2>
+                <p>Explore similar opportunities that might interest you</p>
+            </div>
+            <div class="related-grid" id="relatedGrid">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="careers.js"></script>
+</body>
+</html>
