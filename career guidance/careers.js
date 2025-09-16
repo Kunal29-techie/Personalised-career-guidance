@@ -15,7 +15,7 @@ class CareerDetailsManager {
   loadCareerData() {
     this.careerData = {
       frontend: {
-        title: "Frontend Development",
+        title: "chole bhature is best",
         icon: "🎨",
         description: "Master modern web development with React, TypeScript, and responsive design",
         difficulty: "Beginner Friendly",
